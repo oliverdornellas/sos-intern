@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor-destaque: #F7F6F2;
+    --cor-fundo:#020202ee;
+    --cor-textos:  #FCB804;
+    
+    
+}
+
+
+    
+      
+
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-destaque);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    max-width: 1600px;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#title > h1 {
+    padding: 5px;
+}
+
+
+
+#title{
+    box-shadow:3px 3px 3px  var(--cor-textos);
+    flex-direction: column; 
+    line-height:7px;
+    font-size: 30px;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    margin-left: -15px;
+    padding: 20px;
+}
+
+a{  font-size: 20px;
+    color: var(--cor-destaque);
+    box-shadow: 3px 3px 3px var(--cor-textos);
+}
+
+a:hover{
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: var(--cor-textos);
+    color:var(--cor-destaque)
+    
+    
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 65px;
+    line-height: 52px;
+}
+span{
+   color: var(--cor-textos);
+}
+p{
+    line-height: 20px;
+    font-size: 22px;
+    
+}
+
+form [type="submit"]{
+    width: 30%;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color:var(--cor-textos);
+    color: var(--cor-destaque);
+    
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+input{
+    margin-top: 15px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+img {
+    width: 500px;
+    padding-top:150px;
+    padding-left: 100px;
+}
+
+h3 {
+    font-size: 32px;
+    text-align: center;
+    padding-left:500px;
+    color: var(--cor-textos);
+}
+
+#vd {
+    padding-left:500px;
+    padding-bottom:200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
